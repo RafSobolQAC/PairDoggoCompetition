@@ -25,6 +25,10 @@ public class TooManyDoggos {
 				append = "th";
 			}
 			
+			if( i == place) {
+				continue;
+			}
+			
 			
 			output.add(i+append);
 			
